@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
  
 	const float A = 4.0;
-    const float A_MINUS = 3.7;
+    	const float A_MINUS = 3.7;
 	const float B_PLUS = 3.33;
 	const float B = 3.0;
 	const float B_MINUS = 2.7;
@@ -17,15 +17,15 @@ int main(int argc, char *argv[])
 	
 	string grade;
  	int sem_hour=0;
-    float calctmr = 0;
-    float ttlcalc = 0;
+    	float calctmr = 0;
+    	float ttlcalc = 0;
     
-    float gpa = 0;
-    int option;
-    int sub;
-    int t_hour=0;
-    cout<<"Enter number of subjects";
-    cin>>sub;
+    	float gpa = 0;
+    	int option;
+    	int sub;
+    	int t_hour=0;
+    	cout<<"Enter number of subjects";
+    	cin>>sub;
  	for(int i=0;i<=sub;i++)
     {           
         cout<<"\nEnter grade: ";
